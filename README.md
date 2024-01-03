@@ -19,3 +19,6 @@ Upon implementing the same, we had following output:
 3) Number of Convenience Stores: Displays a moderate positive correlation with house price. More convenience stores in the vicinity seem to positively affect property prices.
 4) Latitude and Longitude: Both show a weak correlation with house prices. Latitude has a slight positive correlation, while longitude has a slight negative correlation .
 
+Overall, the most significant factors affecting house prices in this dataset appears to be the proximity to station and the number of convenience stores nearby. The geographical location (latitude and longitude) and the age of the house seem to have less impact on the price.
+
+For practical application, we will use Dash Application as a user interface for the model. Dash is an open-source framework for building data visualization interfaces. We will create the layout of the app using Dash’s HTML and Core Components. It includes input fields, buttons, and output display areas. Write callback functions to define the interactivity of the app, such as taking user inputs, running the model prediction, and displaying the results. Load the model within the app to use for predictions. I have also attached the app image for your reference.
